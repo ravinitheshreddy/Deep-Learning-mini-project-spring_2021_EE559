@@ -14,7 +14,7 @@ The project is composed of two mini projects described below. The detailed descr
 
 - [Anmol Prasad](anmol.prasad@epfl.ch)
 - [Kushagra Shah Keyurkumar](kushagra.shah@epfl.ch)
-- [Ravinithesh Reddy Annapureddy](vinitheshreddy.github.io)
+- [Ravinithesh Reddy Annapureddy](ravinitheshreddy.github.io)
 
 # Course Website
 
