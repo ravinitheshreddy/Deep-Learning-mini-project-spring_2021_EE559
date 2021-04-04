@@ -13,7 +13,7 @@ The project is composed of two mini projects described below. The detailed descr
 # Members
 
 - [Anmol Prasad](anmol.prasad@epfl.ch)
-- [Kushagra Shah Keyurkumar](kushagra.shah@epfl.ch)
+- [Kushagra Shah](KushagraShah.github.io)
 - [Ravinithesh Reddy Annapureddy](ravinitheshreddy.github.io)
 
 # Course Website
