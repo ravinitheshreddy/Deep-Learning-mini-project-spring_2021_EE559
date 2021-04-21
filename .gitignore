@@ -129,4 +129,5 @@ dmypy.json
 .pyre/
 .history/
 
+.virtual_documents/*
 */.virtual_documents/*
