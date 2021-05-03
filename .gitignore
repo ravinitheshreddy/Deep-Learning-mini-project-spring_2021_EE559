@@ -131,3 +131,5 @@ dmypy.json
 
 .virtual_documents/*
 */.virtual_documents/*
+
+Proj1/data/*
