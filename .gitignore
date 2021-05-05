@@ -131,3 +131,6 @@ dmypy.json
 
 # Data folder
 Proj1/data/
+
+.virtual_documents/*
+*/.virtual_documents/*
