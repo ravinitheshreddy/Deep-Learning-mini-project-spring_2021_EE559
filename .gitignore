@@ -128,3 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .history/
+
+.virtual_documents/*
+*/.virtual_documents/*
+
+Proj1/data/*
