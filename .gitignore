@@ -133,3 +133,4 @@ dmypy.json
 */.virtual_documents/*
 
 Proj1/data/*
+.vscode/settings.json
