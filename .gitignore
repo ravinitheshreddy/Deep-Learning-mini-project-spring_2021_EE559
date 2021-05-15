@@ -134,3 +134,4 @@ Proj1/data/
 
 .virtual_documents/*
 */.virtual_documents/*
+.vscode/settings.json
