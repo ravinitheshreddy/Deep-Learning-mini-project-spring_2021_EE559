@@ -13,7 +13,7 @@ def main():
 
     # generate the training and test samples
     num_of_train_pairs = 1000
-    num_of_test_pairs = 500
+    num_of_test_pairs = 1000
     train_input, train_target = generate_data(num_of_train_pairs)
     test_input, test_target = generate_data(num_of_test_pairs)
 
