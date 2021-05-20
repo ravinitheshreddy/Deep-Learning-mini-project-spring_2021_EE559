@@ -129,9 +129,9 @@ dmypy.json
 .pyre/
 .history/
 
-# Data folder
-Proj1/data/
-
 .virtual_documents/*
 */.virtual_documents/*
+
+Proj1/data/*
+
 .vscode/settings.json
