@@ -133,6 +133,6 @@ dmypy.json
 */.virtual_documents/*
 
 # Data folder
-*/data/
+*/data/*
 
 .vscode/settings.json
