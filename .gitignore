@@ -128,3 +128,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .history/
+
+# Data folder
+Proj1/data/
+
+.virtual_documents/*
+*/.virtual_documents/*
+.vscode/settings.json
