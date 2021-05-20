@@ -1,6 +1,6 @@
 # Final submission: main executable test.py to call without arguments
 
-from dlc_practical_prologue import generate_pair_sets
+from src.dlc_practical_prologue import generate_pair_sets
 from src.train import train_model
 
 

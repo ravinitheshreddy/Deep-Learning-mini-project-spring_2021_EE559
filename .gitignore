@@ -1,5 +1,5 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
+*/__pycache__/
 *.py[cod]
 *$py.class
 
@@ -75,7 +75,7 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+**/.ipynb_checkpoints
 
 # IPython
 profile_default/
@@ -132,6 +132,7 @@ dmypy.json
 .virtual_documents/*
 */.virtual_documents/*
 
-Proj1/data/*
+# Data folder
+*/data/
 
 .vscode/settings.json
