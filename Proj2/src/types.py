@@ -16,7 +16,7 @@ class Module(object):
 
     def backward(self, gradswrtoutput):
         """
-        Function to get input the gradient of the loss with respect to the
+        Function to get the input gradient of the loss with respect to the
         module’s output, accumulate the gradient wrt the parameters, and
         return a tensor or a tuple of tensors containing the gradient of
         the loss wrt the module’s input.
@@ -41,7 +41,7 @@ class Module(object):
 class Optimizer(object):
 
     """
-    Base class for optimzers.
+    Base class for optimizers.
     """
 
     def step(self):

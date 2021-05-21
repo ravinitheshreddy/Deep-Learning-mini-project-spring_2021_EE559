@@ -12,9 +12,9 @@ class Linear(Module):
     def __init__(self, in_features: int, out_features: int, bias: bool = True, weightsinit: str = "uniform"):
         """
         Initialises the layer by creating empty weight and bias tensors
-        and Initialising them using uniform distribution.
+        and initialising them using uniform distribution.
 
-        Parameters
+        Parameters:
             in_features (int): The size of each input sample
             out_features (int): The size of each output sample
             bias – If set to False, the layer will not learn an additive bias. Default: True
@@ -52,8 +52,8 @@ class Linear(Module):
 
         If "weightsinit" is
             1. uniform (by default), the weights are initiliased using uniform distribution.
-            2. xavier, the weights are initiliased using Xavier Initialization.
-            3. kaiming, the weights are initiliased using Kaiming Initialization when using ReLU layer
+            2. xavier, the weights are initiliased using Xavier Initialisation.
+            3. kaiming, the weights are initiliased using Kaiming Initialisation when using ReLU layer
         """
 
         if self.weightsinit == "uniform":
@@ -88,7 +88,7 @@ class Linear(Module):
 
     def backward(self, gradwrtoutput: torch.Tensor) -> torch.Tensor:
         """
-        computes the gradient for the weights and biases.
+        Computes the gradient for the weights and biases.
         """
 
         gradw = self.inp.t().matmul(gradwrtoutput)
@@ -103,7 +103,7 @@ class Linear(Module):
 
     def param(self) -> list:
         """
-        Return the parameters of the layer
+        Returns the parameters of the layer
         """
 
         params = [(self.w, self.gradw)]

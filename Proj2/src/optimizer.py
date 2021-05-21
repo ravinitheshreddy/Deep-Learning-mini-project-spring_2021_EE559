@@ -9,8 +9,8 @@ class SGD(Optimizer):
 
     def __init__(self, params: list, lr=0.01):
         """
-        Parameters
-            params (list): List of the paramerters of the network
+        Parameters:
+            params (list): List of the parameters of the network
             lr (float): The learning rate of the network
         """
 

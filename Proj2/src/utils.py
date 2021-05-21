@@ -75,14 +75,14 @@ def train_model(
 
 def compute_nb_errors(model: Sequential, input_: torch.Tensor, target: torch.Tensor) -> int:
     """
-    Computes and returns the number of misclassifications by the model
+    Computes and returns the number of misclassifications done by the model
 
     Parameters:
         model (Sequential): The neural network model
         input_ (Tensor): The input data samples
         target (Tensor): The target of data samples
 
-    Returns
+    Returns:
         nb_data_errors (int): The number of misclassifications.
 
     """

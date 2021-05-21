@@ -9,7 +9,7 @@ class Sequential(Module):
 
     def __init__(self, *args):
         """
-        Parameters
+        Parameters:
             *args (list[Module]): The list of modules to be constructed in the
             network.
         """
@@ -27,7 +27,7 @@ class Sequential(Module):
         Feed Forward prediction of the network. The input is propagated through
         all the layers and the output of the final layer is returned.
 
-        Parameters
+        Parameters:
             input_ (Tensor): The input sample
         """
         self.inp = input_
@@ -46,7 +46,7 @@ class Sequential(Module):
         Backward propagation of the network. The error is propagated through
         all the layers iteratively.
 
-        Parameters
+        Parameters:
             input_ (Tensor): The input sample
         """
         # The error is propagated in the reverse (backward) direction

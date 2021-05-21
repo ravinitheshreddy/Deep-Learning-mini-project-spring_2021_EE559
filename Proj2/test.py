@@ -17,7 +17,7 @@ def main():
     train_input, train_target = generate_data(num_of_train_pairs)
     test_input, test_target = generate_data(num_of_test_pairs)
 
-    # Normalising the train and test data
+    # normalising the train and test data
     mu, std = train_input.mean(), train_input.std()
     norm_train_input = train_input.sub_(mu).div_(std)
     norm_test_input = test_input.sub_(mu).div_(std)
