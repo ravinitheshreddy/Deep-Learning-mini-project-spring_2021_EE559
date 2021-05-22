@@ -2,7 +2,8 @@
 
 from src.dlc_practical_prologue import generate_pair_sets
 from src.train import train_model
-
+import torch
+torch.manual_seed(0)
 
 def main():
 
@@ -44,4 +45,7 @@ def main():
 
 
 if __name__ == "__main__":
+    import torch
+    torch.manual_seed(0)
     main()
+
