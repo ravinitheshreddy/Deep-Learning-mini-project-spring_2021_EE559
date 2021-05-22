@@ -119,5 +119,5 @@ def main():
 
 if __name__ == "__main__":
 	import torch
-	torch.manual_seed(0)
+	torch.manual_seed(420)
 	main()
